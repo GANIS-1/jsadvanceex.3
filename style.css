@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+border-collapse: collapse; 
+width: 100%; 
+}
+th, td {
+border: 1px solid black; 
+padding: 5px; 
+}
+
+#apiDataTable th:first-child,
+#apiDataTable td:first-child {
+border-left: none;
+}
+
+#apiDataTable th:last-child,
+#apiDataTable td:last-child {
+border-right: none;
+}
